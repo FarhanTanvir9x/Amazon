@@ -23,7 +23,7 @@ nav {
 }
 .nav-logo {
   height: 60px;
-  width: 100px;
+  max-width: 100px;
   background-image: url("amazon_logo.png");
   background-size: 100px 60px;
   border: 1.5px solid transparent;
@@ -276,7 +276,7 @@ main {
 .mobile {
   display: none;
 }
-@media (max-width:360px) {
+@media (max-width:1024px) {
   header,main,footer {
     display: none;
   }
