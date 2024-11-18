@@ -276,7 +276,7 @@ main {
 .mobile {
   display: none;
 }
-@media (max-width:1024px) {
+@media (max-width:900px) {
   header,main,footer {
     display: none;
   }
